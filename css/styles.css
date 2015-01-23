@@ -170,3 +170,33 @@ h1, h2, h3, h4, h5, h6 {
 .section {
 	margin-top: 35px;
 }
+
+#projects a {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #303030;
+}
+
+.progress-bar-rails {
+	background-color: #c7191e;
+}
+
+.progress-bar-android {
+	background-color: #8bc349;
+}
+
+.progress-bar-html-css {
+	background-color: #3b9adc;
+}
+
+.progress-bar-js {
+	background-color: #f8dc3d;
+}
+
+.progress-bar-ember {
+	background-color: #f5664d;
+}
+
+.progress-bar-bootstrap {
+	background-color: #5b4181	;
+}

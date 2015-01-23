@@ -1,5 +1,5 @@
 function scroll(element) {
-  $("html, body").animate({ scrollTop: $(element).offset().top }, 1000);
+  $("html, body").delay(100).animate({ scrollTop: $(element).offset().top }, 900);
 };
 
 $(document).ready(function(){
