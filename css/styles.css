@@ -128,10 +128,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1a84bc;
 }
 
-#about {
-  margin-top: 100px;
-}
-
 .well {
   background-color: white;
   border-radius: 0;
@@ -158,4 +154,19 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #f7f7f7;
 	box-shadow: none;
 	border: 1px solid #f0f0f0;
+}
+
+#about p {
+	font-size: 1.65rem;
+	font-weight: 600;
+	color: #555;
+	line-height: 3.25rem;
+}
+
+#about {
+	margin-top: 60px;
+}
+
+.section {
+	margin-top: 35px;
 }
