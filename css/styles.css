@@ -19,17 +19,21 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f56954;
   border: 1px solid #e74c3c;
   border-radius: 0;
-  padding: 40px 0px;
-}
-
-.navbar-brand {
-  margin-left: 100px !important;
-  font-weight: 600;
+  padding: 45px 0px;
 }
 
 .navbar a {
   font-family: 'Montserrat';
   color: white !important;
+}
+
+.navbar a:hover {
+  color: #505050 !important;
+}
+
+.navbar-brand {
+  margin-left: 100px !important;
+  font-weight: 600;
 }
 
 .avatar {
@@ -38,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro {
-  margin-top: 50px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -47,7 +51,111 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-#caption {
+#caption, #location {
   color: #808080;
   font-weight: 400;
+}
+
+#location {
+  font-size: 1.5rem;
+}
+
+#social {
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #a0a0a0;
+  border-radius: 10rem;
+  margin-left: 15px;
+  color: #707070;
+}
+
+.social-link i {
+  font-size: 1.75rem;
+  padding-top: 7px;
+}
+
+.social-link:hover {
+  color: white !important;
+}
+
+#fb-social {
+  color: #3a5795;
+  border-color: #3a5795;
+}
+
+#fb-social:hover {
+  background-color: #3a5795;
+}
+
+#twitter-social {
+  color: #55acee;
+  border-color: #55acee;
+}
+
+#twitter-social:hover {
+ background-color: #55acee; 
+}
+
+#mail-social {
+  color: #d9534f;
+  border-color: #d9534f;
+}
+
+#mail-social:hover {
+  background-color: #d9534f;
+}
+
+#github-social {
+  color: #333;
+  border-color: #333;
+}
+
+#github-social:hover {
+  background-color: #333;
+}
+
+#linkedin-social {
+  color: #1a84bc;
+  border-color: #1a84bc;
+}
+
+#linkedin-social:hover {
+  background-color: #1a84bc;
+}
+
+#about {
+  margin-top: 100px;
+}
+
+.well {
+  background-color: white;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.progress-bar-success {
+	background-color: #20c05c;
+}
+
+.skill {
+	margin-top: 10px;
+}
+
+.skillname {
+	font-size: 1.5rem;
+}
+
+.progress {
+	margin-top: 5px;
+	height: 12px;
+	color: #808080;
+	border-radius: 0;
+	background-color: #f7f7f7;
+	box-shadow: none;
+	border: 1px solid #f0f0f0;
 }
