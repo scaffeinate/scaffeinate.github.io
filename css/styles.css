@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f56954;
   border: 1px solid #e74c3c;
   border-radius: 0;
-  padding: 45px 0px;
+  padding: 50px 0px;
 }
 
 .navbar a {
@@ -101,12 +101,12 @@ h1, h2, h3, h4, h5, h6 {
  background-color: #55acee; 
 }
 
-#mail-social {
+#google-social {
   color: #d9534f;
   border-color: #d9534f;
 }
 
-#mail-social:hover {
+#google-social:hover {
   background-color: #d9534f;
 }
 
@@ -128,6 +128,24 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1a84bc;
 }
 
+#phone {
+  color: #34af23;
+  border-color: #34af23;
+}
+
+#phone:hover {
+  background-color: #34af23;
+}
+
+#mail {
+  color: #337ab7;
+  border-color: #337ab7;
+}
+
+#mail:hover {
+  background-color: #337ab7;
+}
+
 .well {
   background-color: white;
   border-radius: 0;
@@ -147,13 +165,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress {
-	margin-top: 5px;
-	height: 12px;
-	color: #808080;
+	margin-top: 7px;
+	height: 8px;
 	border-radius: 0;
 	background-color: #f7f7f7;
 	box-shadow: none;
-	border: 1px solid #f0f0f0;
 }
 
 #about p {
@@ -167,22 +183,40 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 60px;
 }
 
+#blog p {
+	margin: 20px 40px;
+	font-size: 1.65rem;
+	color: #555;
+}
+
 .section {
 	margin-top: 35px;
 }
 
-#projects a {
-  font-size: 1.55rem;
+.project {
+  margin: 30px 20px;
+}
+
+.project h5 {
+  font-family: 'Lato';
+  font-size: 1.75rem;
+  color: #202020;
   font-weight: 700;
-  color: #303030;
+}
+
+.project p {
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: #555;
+  line-height: 3rem;
 }
 
 .progress-bar-rails {
-	background-color: #c7191e;
+	background-color: #e43725;
 }
 
 .progress-bar-android {
-	background-color: #8bc349;
+	background-color: #77c356;
 }
 
 .progress-bar-html-css {
@@ -199,4 +233,40 @@ h1, h2, h3, h4, h5, h6 {
 
 .progress-bar-bootstrap {
 	background-color: #5b4181	;
+}
+
+.progress-bar {
+    -webkit-transition: width 3s ease-in-out;
+    -moz-transition: width 3s ease-in-out;
+    -ms-transition: width 3s ease-in-out;
+    -o-transition: width 3s ease-in-out;
+    transition: width 3s ease-in-out;
+}
+
+#contact {
+  font-size: 1.60rem;
+  color: #505050;  
+}
+
+#contact a {
+  margin: 20px 7px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section h3 {
+  font-size: 2rem;
+  color: #505050;
+}
+
+.section h3:after {
+  content: '';
+  background: rgba(0,0,0,0.15);
+  height: 1px;
+  width: 50px;
+  display: block;
+  margin: 10px auto 0;
 }
