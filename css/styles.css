@@ -153,44 +153,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress-bar-success {
-	background-color: #20c05c;
+  background-color: #20c05c;
 }
 
 .skill {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .skillname {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .progress {
-	margin-top: 7px;
-	height: 8px;
-	border-radius: 0;
-	background-color: #f7f7f7;
-	box-shadow: none;
+  margin-top: 7px;
+  height: 8px;
+  border-radius: 0;
+  background-color: #f7f7f7;
+  box-shadow: none;
 }
 
 #about p {
-	font-size: 1.65rem;
-	font-weight: 600;
-	color: #555;
-	line-height: 3.25rem;
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: #555;
+  line-height: 3.25rem;
 }
 
 #about {
-	margin-top: 60px;
+  margin-top: 60px;
 }
 
 #blog p {
-	margin: 20px 40px;
-	font-size: 1.65rem;
-	color: #555;
+  margin: 20px 40px;
+  font-size: 1.65rem;
+  color: #555;
 }
 
 .section {
-	margin-top: 35px;
+  margin-top: 35px;
 }
 
 .project {
@@ -212,27 +212,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress-bar-rails {
-	background-color: #e43725;
+  background-color: #e43725;
 }
 
 .progress-bar-android {
-	background-color: #77c356;
+  background-color: #77c356;
 }
 
 .progress-bar-html-css {
-	background-color: #3b9adc;
+  background-color: #3b9adc;
 }
 
 .progress-bar-js {
-	background-color: #f8dc3d;
+  background-color: #f8dc3d;
 }
 
 .progress-bar-ember {
-	background-color: #f5664d;
+  background-color: #f5664d;
 }
 
 .progress-bar-bootstrap {
-	background-color: #5b4181	;
+  background-color: #5b4181 ;
 }
 
 .progress-bar {
