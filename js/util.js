@@ -8,6 +8,8 @@ $(document).ready(function(){
     scrollDiv($(this).attr("href"));
   });
 
+  $("#phone").popover();
+
   $(window).on('scroll', function(){
     var topofDiv = $("#skills").offset().top;
     var height = $("#skills").outerHeight();

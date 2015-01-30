@@ -227,6 +227,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f8dc3d;
 }
 
+.progress-bar-java {
+  background-color: #e00000;
+}
+
 .progress-bar-ember {
   background-color: #f5664d;
 }
@@ -269,4 +273,58 @@ h1, h2, h3, h4, h5, h6 {
   width: 50px;
   display: block;
   margin: 10px auto 0;
+}
+
+.label {
+  padding: 5px;
+  font-size: 1.15rem;
+  margin-right: 7.5px;
+  color: #000;
+  border: 2px solid #e0e0e0;
+}
+
+.label-rails {
+  border-color: #e43725;
+}
+
+.label-html {
+  border-color: #3b9adc;
+}
+
+.label-css {
+  border-color: #00ca6d
+}
+
+.label-android {
+  border-color: #77c356;
+}
+
+.label-ember {
+
+}
+
+.label-java {
+  border-color: #e00000;
+}
+
+.label-js {
+  border-color: #f8dc3d;
+}
+
+.label-bootstrap {
+  border-color: #5b4181;
+}
+
+.label-heroku {
+  border-color: #5a4c91;
+}
+
+.btn-github {
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.btn-github i {
+  font-size: 1.5rem;
 }
