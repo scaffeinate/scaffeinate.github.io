@@ -180,7 +180,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-  margin-top: 60px;
+  margin-top: 30px;
+  padding: 0px 30px;
 }
 
 #blog p {
@@ -328,3 +329,17 @@ h1, h2, h3, h4, h5, h6 {
 .btn-github i {
   font-size: 1.5rem;
 }
+
+.t-left-section, .t-right-section {
+  display: inline;
+}
+
+@media(max-width:767px){
+  .t-right-section {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+/*@media(min-width:768px){}
+@media(min-width:992px){}*/
