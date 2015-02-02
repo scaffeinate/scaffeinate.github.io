@@ -242,11 +242,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress-bar {
-    -webkit-transition: width 3s ease-in-out;
-    -moz-transition: width 3s ease-in-out;
-    -ms-transition: width 3s ease-in-out;
-    -o-transition: width 3s ease-in-out;
-    transition: width 3s ease-in-out;
+  -webkit-transition: width 3s ease-in-out;
+  -moz-transition: width 3s ease-in-out;
+  -ms-transition: width 3s ease-in-out;
+  -o-transition: width 3s ease-in-out;
+  transition: width 3s ease-in-out;
 }
 
 #contact {
@@ -322,13 +322,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-github {
-  border-radius: 0;
+  background-color: #333;
+  color: #fff;
   font-weight: bold;
   font-size: 1.25rem;
 }
 
 .btn-github i {
   font-size: 1.5rem;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.fa-arrow-right {
+  font-size: 1.2rem !important;
 }
 
 .t-left-section, .t-right-section {
@@ -342,5 +349,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*@media(min-width:768px){}
-@media(min-width:992px){}*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border-radius: 0;
+  border: 2px solid #fff;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:active {
+  background: #FF836E;
+}
+
+.navbar-collapse {
+  border-top: none;
+  box-shadow: none;
+}
