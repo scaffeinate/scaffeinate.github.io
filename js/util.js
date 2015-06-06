@@ -9,6 +9,11 @@ $(document).ready(function(){
     centeredY: true,
     fade: "slow"
   });
+
+  $(window).on("backstretch.after", function (e, instance, index) {
+    $(".overlay").removeClass("hidden");
+  });
+
   /*$(".scroll-link").click(function(e){
     e.preventDefault();
     scrollDiv($(this).attr("href"));
