@@ -9,17 +9,7 @@
 
 body {
   font-family: 'Lato';
-}
-
-#container {
-  padding-top: 150px;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background: rgba(0,0,0,0.35);
+  padding-top: 160px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro {
   margin-top: 150px;
+  padding-bottom: 275px;
   text-align: center;
 }
 
@@ -79,17 +70,18 @@ h1, h2, h3, h4, h5, h6 {
 #name {
   color: #fff;
   font-size: 2rem;
+  font-weight: 800;
+}
+
+#caption {
+  color: #f4f4f4;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
-#caption, #location {
-  color: #f4f4f4;
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
-#location {
-  font-size: 1.5rem;
+#about-me {
+  background: white;
+  padding: 50px;
 }
 
 #social {
