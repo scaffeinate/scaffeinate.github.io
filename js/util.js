@@ -3,6 +3,9 @@ function scrollDiv(element) {
 };
 
 $(document).ready(function(){
+  
+  $.backstretch("assets/img/back.jpg");
+
   $(".scroll-link").click(function(e){
     e.preventDefault();
     scrollDiv($(this).attr("href"));

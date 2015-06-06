@@ -15,6 +15,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
 <body>
+  <div class="overlay"></div>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -24,7 +25,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href>PORTFOLIO</a>
+        <a class="navbar-brand" href>SM</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
@@ -38,12 +39,12 @@
       </div>
     </div>
   </nav>
-  <div class="container">
+  <div id="main-content" class="container">
     <div class="row">
-      <div id="intro" class="col-lg-4 col-lg-offset-4">
-        <img src="assets/img/profile.jpg" alt="Profile" class="avatar">
-        <h3 id="name">Sudharsanan Muralidharan</h3>
-        <h5 id="caption">Full Stack Web Developer | Android Developer</h5>
+      <div id="intro" class="col-lg-6 col-lg-offset-3">
+        <!-- <img src="assets/img/avatar.png" alt="Profile" class="avatar"> -->
+        <h3 id="name">SUDHARSANAN MURALIDHARAN</h3>
+        <h5 id="caption">FULL STACK WEB DEVELOPER | ANDROID DEVELOPER</h5>
         <h5 id="location"><i class="fa fa-map-marker"></i> Dallas, TX</h5>
         <div id="social">
           <a id="fb-social" href="https://www.facebook.com/sudharshan.muralidharan" class="social-link" target="_blank">
@@ -65,265 +66,20 @@
         <br>
       </div>
     </div>
-    <div class="row section">
-      <div id="about" class="col-lg-8 col-lg-offset-2">
-        <h3 class="text-center"><b>ABOUT</b></h3><br>
-        <h4>Introduction</h4>
-        <p>Hey there. I am Sudharsanan, 22 from India. Currently a Graduate student in Computer Science at University of Texas, Dallas. A Rubyist, Hacker, Blogger and a Technophile. Check out my Skills in the section below.</p>
-        <h4>Web Development</h4>
-        <p>I am a Full stack web developer who is totally passionate about the web. I use Ruby on Rails &amp; Ember.js to create web applications.</p>
-        <h4>UI/UX Design</h4>
-        <p>I love creating simple, flat and elegant interfaces for the Web and Mobile. For designing web applications I use Twitter Bootstrap(Predominantly) and Zurb Foundation. Checkout my designs <a href="design.html" target="_blank">here</a></p>
-        <h4>Mobile Development</h4>
-        <p>Apart from Web development I develop applications for Android. I have 1+ years experience in Mobile App development.</p>
-        <h4>Open Source</h4>
-        <p>I am a strong supporter of open source software. I believe that software should be built by an open community of developers, hackers and designers.</p>
-      </div>
-    </div>
-    <div class="row section">
-      <div id="skills" class="col-lg-8 col-lg-offset-2">
-        <h3 class="text-center"><b>SKILLS</b></h3><br>
-        <div class="well">
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>Ruby on Rails</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-rails" data-transitiongoal="85">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>Android</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-android" data-transitiongoal="80">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>HTML5, CSS3, SASS</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-html-css" data-transitiongoal="85">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>Javascript &amp; JQuery</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-js" data-transitiongoal="78">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>Ember.js</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-ember" data-transitiongoal="70">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>Java</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-java" data-transitiongoal="87">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>Bootstrap 3</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-bootstrap" data-transitiongoal="82">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row skill">
-            <div class="col-lg-3">
-              <span class="skillname"><b>Git</b></span>
-            </div>
-            <div class="col-lg-9">
-              <div class="progress">
-                <div class="progress-bar progress-bar-git" data-transitiongoal="85">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row section">
-      <div id="projects" class="col-lg-8 col-lg-offset-2">
-        <h3 class="text-center"><b>PROJECTS</b></h3><br>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="rails head">
-                <img src="assets/img/rails-128.png" alt="rails">
-                <a href="https://github.com/sudharti/twitter-clone" class="github pull-right">
-                  <i class="fa fa-github"></i> GitHub
-                </a>
-              </div>
-              <div class="content">
-                <h5 class="tech">Ruby on Rails</h5>
-                <h5 class="title">Twitter Clone</h5>
-                <p>An Open Source clone of Twitter developed using Ruby on Rails 4. It uses Postgresql for database and Bootstrap for frontend.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="head css">
-                <img src="assets/img/css3-128.png" alt="css3">
-                <a href="https://github.com/sudharti/paper" class="github pull-right">
-                  <i class="fa fa-github"></i> GitHub
-                </a>
-              </div>
-              <div class="content">
-                <h5 class="tech">Sass + JQuery</h5>
-                <h5 class="title">Paper - Bootstrap Theme</h5>
-                <p>Paper is a simple, elegant &amp; flat Bootstrap Theme. It's free to use and open source. Checkout the Github. Paper is built on Twitter Bootstrap and written using Sass.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="head js">
-                <img src="assets/img/js-128.png" alt="javascript">
-                <a href="https://github.com/sudharti/slider-panel" class="github pull-right">
-                  <i class="fa fa-github"></i> GitHub
-                </a>
-              </div>
-              <div class="content">
-                <h5 class="tech">Jquery + CSS3</h5>
-                <h5 class="title">Slider panel</h5>
-                <p>A simple sliding panel to display off-canvas contents. It uses css transforms (translate3d) and cubic bezier transitions to achieve the sliding effect.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="rails head">
-                <img src="assets/img/rails-128.png" alt="rails">
-                <a href="https://github.com/sudharti/2cents" class="github pull-right">
-                  <i class="fa fa-github"></i> GitHub
-                </a>
-              </div>
-              <div class="content">
-                <h5 class="tech">Ruby on Rails</h5>
-                <h5 class="title">Two Cents</h5>
-                <p>An app that would help the users find the best things from their neighborhood. Built using Ruby on Rails, Bootstrap and Postgresql.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="android head">
-                <img src="assets/img/android-128.png" alt="android">
-                <a href="https://github.com/sudharti/BarrelRace" class="github pull-right">
-                  <i class="fa fa-github"></i> GitHub
-                </a>
-              </div>
-              <div class="content">
-                <h5 class="tech">Android</h5>
-                <h5 class="title">Barrel Race Game</h5>
-                <p>BarrelRace Game is an android game where there is a rider on a horse who enters a gate and circles the barrels (3 Barrels in this case).</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="html head">
-                <img src="assets/img/html5-128.png" alt="html5">
-                <a href="https://github.com/sudharti/portfolio" class="github pull-right">
-                  <i class="fa fa-github"></i> GitHub
-                </a>
-              </div>
-              <div class="content">
-                <h5 class="tech">HTML5 + CSS3 + JQuery</h5>
-                <h5 class="title">Portfolio</h5>
-                <p>An Introduction about myself and showcase of my Skills &amp; Projects. Developed using HTML5, CSS3, JQuery and Bootstrap.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row section">
-      <div id="blog" class="col-lg-8 col-lg-offset-2">
-        <h3 class="text-center"><b>BLOG</b></h3>
-        <p>
-         I am a part-time Blogger. I blog about Ruby, Rails &amp; Android. Check out my blog at <a href="http://sudharti.github.io/">http://sudharti.github.io/</a>
-       </p>
-     </div>
-   </div>
-   <div class="row section">
-    <div id="contact" class="col-lg-8 col-lg-offset-2 text-center">
-      <h3><b>CONTACT</b></h3>
-      <a id="phone" href="javascript:void(0);" class="social-link" data-toggle="popover" title="Phone" data-content="Reach me anytime at (469)-789-9579" data-placement="top">
-        <i class="fa fa-phone"></i>
-      </a>
-      <a id="mail" href="mailto:sudhar.ti@gmail.com" class="social-link">
-        <i class="fa fa-envelope"></i>
-      </a>
-      <a id="fb-social" href="https://www.facebook.com/sudharshan.muralidharan" class="social-link" target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-      <a id="twitter-social" href="https://twitter.com/sudharshan_iyer" class="social-link" target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-      <a id="google-social" href="https://plus.google.com/u/0/+SudharshanMuralidharan" class="social-link" target="_blank">
-        <i class="fa fa-google-plus"></i>
-      </a>
-      <a id="github-social" href="https://github.com/sudharti" class="social-link" target="_blank">
-        <i class="fa fa-github"></i>
-      </a>
-      <a id="linkedin-social" href="https://www.linkedin.com/in/sudharsananm" class="social-link" target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </div>
   </div>
-</div>
-<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-progressbar.min.js"></script>
-<script type="text/javascript" src="js/util.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+  <script type="text/javascript" src="js/util.js"></script>
+  <!-- <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-59264101-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-59264101-1', 'auto');
+    ga('send', 'pageview');
 
-</script>
+  </script> -->
 </body>
 </html>

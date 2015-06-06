@@ -11,15 +11,22 @@ body {
   font-family: 'Lato';
 }
 
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0,0,0,0.4);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
 }
 
 .navbar-default {
-  background-color: #f56954;
-  border: 1px solid #e74c3c;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
-  padding: 50px 0px;
+  padding: 30px 0px;
 }
 
 .navbar a {
@@ -32,14 +39,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
+  font-size: 2rem;
   margin-left: 100px !important;
   font-weight: 600;
 }
 
 .avatar {
-  width: 150px;
-  border-radius: 10rem;
-  border: 5px solid #e0e0e0;
+  width: 125px;
+  border-radius: 6px;
 }
 
 #intro {
@@ -48,12 +55,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #name {
-  color: #49515a;
+  color: #fff;
   font-weight: 600;
 }
 
 #caption, #location {
-  color: #808080;
+  color: #f4f4f4;
   font-weight: 400;
 }
 
