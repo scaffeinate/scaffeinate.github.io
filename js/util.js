@@ -4,14 +4,10 @@
 
 $(document).ready(function(){
   
-  $.backstretch("assets/img/back.jpg", {
+  $.backstretch("assets/img/back-edited.jpg", {
     centeredX: true,
     centeredY: true,
     fade: "slow"
-  });
-
-  $(window).on("backstretch.after", function (e, instance, index) {
-    $(".overlay").removeClass("hidden");
   });
 
   /*$(".scroll-link").click(function(e){
