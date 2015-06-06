@@ -15,7 +15,7 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.35);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,11 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   border: none;
   border-radius: 0;
-  padding: 30px 0px;
+  padding: 35px 0px;
 }
 
 .navbar a {
   font-family: 'Montserrat';
+  font-size: 1.35rem;
   color: white !important;
 }
 
@@ -39,9 +40,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
-  font-size: 2rem;
-  margin-left: 100px !important;
+  font-size: 2rem !important;
+  margin-left: 125px !important;
   font-weight: 600;
+}
+
+@media(max-width:767px){
+  .navbar-brand {
+    margin-left: 40px !important;
+  }
 }
 
 .avatar {
@@ -54,14 +61,21 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+@media(max-width: 767px) {
+  #intro {
+    margin-top: 100px;
+  }
+}
+
 #name {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 #caption, #location {
   color: #f4f4f4;
+  font-size: 1.15rem;
   font-weight: 400;
 }
 
@@ -353,6 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-toggle {
+  padding: 7px 8px;
   border-radius: 0;
   border: 2px solid #fff;
 }
@@ -360,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-toggle:focus, 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:active {
-  background: #FF836E;
+  background: rgba(0,0,0,0.5);
 }
 
 .navbar-collapse {
