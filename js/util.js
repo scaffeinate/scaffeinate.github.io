@@ -1,19 +1,13 @@
-/*function scrollDiv(element) {
-  $("html, body").delay(100).animate({ scrollTop: $(element).offset().top }, 900);
-};*/
+function scrollDiv(element) {
+  $("html, body").delay(100).animate({ scrollTop: $(element).offset().top - 100 }, 500);
+};
 
 $(document).ready(function(){
-  
-  $.backstretch("assets/img/back-edited.jpg", {
-    centeredX: true,
-    centeredY: true,
-    fade: "slow"
-  });
 
-  /*$(".scroll-link").click(function(e){
+  $("a[href*=#]").click(function(e){
     e.preventDefault();
     scrollDiv($(this).attr("href"));
-  });*/
+  });
 
   $("#phone").popover();
 

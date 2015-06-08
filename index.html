@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +11,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-fixed-top navbar-default">
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -29,31 +30,44 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="scroll-link" href="#about">ABOUT</a></li>
-            <li><a class="scroll-link" href="#skills">SKILLS</a></li>
-            <li><a class="scroll-link" href="#projects">PROJECTS</a></li>
-            <li><a href="assets/docs/Resume.pdf" target="_blank">RESUME</a></li>
+            <li><a class="scroll-link" href="#about-me">ABOUT ME</a></li>
+            <li><a class="scroll-link" href="#work">WHAT I DO</a></li>
+            <li><a class="scroll-link" href="#github">GITHUB</a></li>
             <li><a class="scroll-link" href="#blog">BLOG</a></li>
             <li><a class="scroll-link" href="#contact">CONTACT</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div id="intro" class="row">
+    <div id="intro" class="row animated bounceIn">
       <div class="col-lg-6 col-lg-offset-3">
+        <img src="assets/img/avatar.png" alt="Profile" class="avatar">
         <h3 id="name">SUDHARSANAN MURALIDHARAN</h3>
-        <h5 id="caption">GRAD STUDENT | FULL STACK WEB DEVELOPER | ANDROID DEVELOPER</h5>
+        <h5 id="caption">GRAD STUDENT | FULL STACK WEB DEVELOPER</h5>
       </div>
     </div>
     <div id="about-me" class="row">
-      
+      <div class="col-lg-10 col-lg-offset-1">
+        <h4><b>ABOUT ME</b></h4>
+        <div class="row">
+          <div class="col-lg-6 left-content">
+            <img src="assets/img/back.jpg" alt="Profile" style="width: 100%; height: auto;">
+          </div>
+          <div class="col-lg-6 right-content wow fadeIn">
+            <p></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
   <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
   <script type="text/javascript" src="js/util.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <!-- <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
