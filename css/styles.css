@@ -5,9 +5,10 @@
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;src: url(../assets/fonts/Montserrat/Montserrat-Regular.otf) format('opentype');}
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;src: url(../assets/fonts/Montserrat/Montserrat-Bold.otf) format('opentype');}
 
+
 body {
   font-family: 'OpenSans';
-  background: linear-gradient(#784ba3, #544b9d, #7857b6);
+  background: linear-gradient(#7857b0, #5857b0, #324a99);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +20,7 @@ p, span {
 }
 
 .navbar-default {
-  background-color: transparent;
+  background: transparent;
   border: none;
   border-radius: 0;
   padding: 45px 0px;
@@ -28,16 +29,17 @@ p, span {
 .navbar a {
   font-family: 'Montserrat';
   font-size: 1.3rem;
-  border-bottom: 3px solid transparent;
   color: white !important;
+  border-radius: 5px;
+  padding: 12px 15px !important;
 }
 
 .navbar a:hover {
-  border-bottom: 3px solid #fff;
+  background: #6357a0 !important;
 }
 
 .navbar-brand {
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   margin-left: 125px !important;
   font-weight: 600;
 }
@@ -76,404 +78,40 @@ p, span {
 
 #intro h3 {
   color: #fff;
-  font-size: 2rem;
-  font-weight: 800;
-}
+  font-size: 1.85rem;
+  font-weight: 600;
+} 
 
 #intro h5 {
-  color: #f4f4f4;
+  color: #fff;
   font-size: 1.25rem;
-  font-weight: 400;
-}
-
-#about-me {
-  background: white;
-  padding: 50px;
-}
-
-#about-me .row {
-  margin-top: 25px;
-}
-
-#about-me p {
-  font-size: 1.7rem;
-  line-height: 3rem;
-}
-
-.left-content {
-  padding-right: 40px;
-}
-
-.right-content {
-  padding-left: 40px;
-}
-
-#social {
-  margin-top: 20px;
-}
-
-.social-link {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  border: 2px solid #a0a0a0;
-  border-radius: 10rem;
-  margin-left: 15px;
-  color: #707070;
-}
-
-.social-link i {
-  font-size: 1.75rem;
-  padding-top: 7px;
-}
-
-.social-link:hover {
-  color: white !important;
-}
-
-#fb-social {
-  color: #3a5795;
-  border-color: #3a5795;
-}
-
-#fb-social:hover {
-  background-color: #3a5795;
-}
-
-#twitter-social {
-  color: #55acee;
-  border-color: #55acee;
-}
-
-#twitter-social:hover {
- background-color: #55acee; 
-}
-
-#google-social {
-  color: #d9534f;
-  border-color: #d9534f;
-}
-
-#google-social:hover {
-  background-color: #d9534f;
-}
-
-#github-social {
-  color: #333;
-  border-color: #333;
-}
-
-#github-social:hover {
-  background-color: #333;
-}
-
-#linkedin-social {
-  color: #1a84bc;
-  border-color: #1a84bc;
-}
-
-#linkedin-social:hover {
-  background-color: #1a84bc;
-}
-
-#phone {
-  color: #34af23;
-  border-color: #34af23;
-}
-
-#phone:hover {
-  background-color: #34af23;
-}
-
-#mail {
-  color: #337ab7;
-  border-color: #337ab7;
-}
-
-#mail:hover {
-  background-color: #337ab7;
-}
-
-.well {
-  background-color: white;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.progress-bar-success {
-  background-color: #20c05c;
-}
-
-.skill {
-  margin-top: 10px;
-}
-
-.skillname {
-  font-size: 1.5rem;
-}
-
-.progress {
-  margin-top: 7px;
-  height: 8px;
-  border-radius: 0;
-  background-color: #f7f7f7;
-  box-shadow: none;
-}
-
-#about p {
-  font-size: 1.45rem;
-  font-weight: 600;
-  color: #555;
-  line-height: 3rem;
-}
-
-#about {
-  margin-top: 30px;
-  padding: 0px 60px;
-}
-
-#about h4 {
-  font-size: 1.65rem;
-}
-
-#blog p {
-  margin: 20px 40px;
-  font-size: 1.65rem;
-  color: #555;
+  font-weight: 300;
 }
 
 .section {
-  margin-top: 35px;
+  background: white;
+  padding: 100px 40px;
 }
 
-.project {
-  margin: 30px 20px;
-}
-
-.project h5 {
-  font-family: 'Lato';
-  font-size: 1.75rem;
-  color: #202020;
-  font-weight: 700;
-}
-
-.project p {
+.section h4 {
+  text-align: center;
   font-size: 1.65rem;
-  font-weight: 600;
-  color: #555;
-  line-height: 3rem;
+  font-weight: 400;
+  color: #233;
+  padding: 25px;
 }
 
-.progress-bar-rails {
-  background-color: #e43725;
-}
-
-.progress-bar-android {
-  background-color: #77c356;
-}
-
-.progress-bar-html-css {
-  background-color: #3b9adc;
-}
-
-.progress-bar-js {
-  background-color: #f8dc3d;
-}
-
-.progress-bar-java {
-  background-color: #e00000;
-}
-
-.progress-bar-ember {
-  background-color: #f5664d;
-}
-
-.progress-bar-bootstrap {
-  background-color: #5b4181 ;
-}
-
-.progress-bar {
-  -webkit-transition: width 3s ease-in-out;
-  -moz-transition: width 3s ease-in-out;
-  -ms-transition: width 3s ease-in-out;
-  -o-transition: width 3s ease-in-out;
-  transition: width 3s ease-in-out;
-}
-
-#contact {
-  font-size: 1.60rem;
-  color: #505050;  
-}
-
-#contact a {
-  margin: 20px 7px;
-}
-
-#contact ul {
-  list-style: none;
-  padding: 0;
-}
-
-.section h3 {
-  font-size: 2rem;
-  color: #505050;
-}
-
-.section h3:after {
+.section h4:after {
   content: '';
-  background: rgba(0,0,0,0.15);
+  background: rgba(0,0,0,0.25);
   height: 1px;
-  width: 50px;
+  width: 25px;
   display: block;
   margin: 10px auto 0;
 }
 
-.label {
-  padding: 5px;
-  font-size: 1.15rem;
-  margin-right: 7.5px;
-  color: #000;
-  border: 2px solid #e0e0e0;
-}
-
-.label-rails {
-  border-color: #e43725;
-}
-
-.label-html {
-  border-color: #3b9adc;
-}
-
-.label-css {
-  border-color: #00ca6d
-}
-
-.label-android {
-  border-color: #77c356;
-}
-
-.label-ember {
-
-}
-
-.label-java {
-  border-color: #e00000;
-}
-
-.label-js {
-  border-color: #f8dc3d;
-}
-
-.label-bootstrap {
-  border-color: #5b4181;
-}
-
-.label-heroku {
-  border-color: #5a4c91;
-}
-
-.fa-arrow-right {
-  font-size: 1.2rem !important;
-}
-
-.t-left-section, .t-right-section {
-  display: inline;
-}
-
-@media(max-width:767px){
-  .t-right-section {
-    display: block;
-    margin-top: 20px;
-  }
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
-}
-
-.navbar-default .navbar-toggle {
-  padding: 7px 8px;
-  border-radius: 0;
-  border: 2px solid #fff;
-}
-
-.navbar-default .navbar-toggle:focus, 
-.navbar-default .navbar-toggle:hover, 
-.navbar-default .navbar-toggle:active {
-  background: rgba(0,0,0,0.5);
-}
-
-.navbar-collapse {
-  border-top: none;
-  box-shadow: none;
-}
-
-.card {
-  margin-top: 20px;
-  height: 300px;
-  border-radius: 3px;
-  border: 1px solid #e0e0e0;
-}
-
-.card > .head {
-  padding: 10px;  
-}
-
-.card > .head > .github {
-  color: white;
-  margin-top: 15px;
-  margin-right: 10px;
-  font-size: 1.5rem;
-}
-
-.card > .head > .github i {
-  font-size: 2rem;
-}
-
-.card > .head > img {
-  width: 50px;
-}
-
-.card .content {
-  padding: 10px 20px;
-}
-
-.card .content > h5 {
-  font-size: 1.75rem;
-}
-
-.card .content > .tech {
-  font-family: 'Lato';
-  font-weight: bold;
-  color: #c0c0c0;
-  font-size: 1.5rem;
-}
-
-.card .content > .title {
-  font-size: 1.75rem;
-}
-
-.card .content > p {
-  font-size: 1.45rem;
-  color: #A0A0A0;
-}
-
-.card > .rails {
-  background: #e15258;
-}
-
-.card > .js {
-  background: #f8dc3d;
-}
-
-.card > .css {
-  background: #0092bf;
-}
-
-.card > .android {
-  background: #a4c639;
-}
-
-.card > .html {
-  background: #f06529;
+.section p {
+  font-size: 1.65rem;
+  line-height: 3rem;
+  word-spacing: 1px;
 }
