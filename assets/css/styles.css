@@ -1,8 +1,8 @@
-@font-face {font-family: 'OpenSans';font-style: normal;font-weight: 300;src: url(../assets/fonts/OpenSans/OpenSans-Light.ttf);}
-@font-face {font-family: 'OpenSans';font-style: normal;font-weight: 400;src: url(../assets/fonts/OpenSans/OpenSans-Regular.ttf);}
+@font-face {font-family: 'OpenSans';font-style: normal;font-weight: 300;src: url(../fonts/OpenSans/OpenSans-Light.ttf);}
+@font-face {font-family: 'OpenSans';font-style: normal;font-weight: 400;src: url(../fonts/OpenSans/OpenSans-Regular.ttf);}
 
-@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;src: url(../assets/fonts/Montserrat/Montserrat-Regular.otf) format('opentype');}
-@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;src: url(../assets/fonts/Montserrat/Montserrat-Bold.otf) format('opentype');}
+@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;src: url(../fonts/Montserrat/Montserrat-Regular.otf) format('opentype');}
+@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;src: url(../fonts/Montserrat/Montserrat-Bold.otf) format('opentype');}
 
 
 body {
