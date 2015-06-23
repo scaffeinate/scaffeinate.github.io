@@ -6,6 +6,8 @@ $(document).ready(function(){
 
   new WOW().init();
 
+  $('.progress .progress-bar').progressbar(); 
+
   $("a[href*=#]").click(function(e){
     e.preventDefault();
     scrollDiv($(this).attr("href"));
