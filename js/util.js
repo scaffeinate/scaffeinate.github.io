@@ -13,6 +13,22 @@ $(document).ready(function(){
 
   $("#phone").popover();
 
+  $("#avatar").hover(function(){
+    $(this).animate({
+      opacity: 0
+    }, 450, function(){
+      $(this).attr("src","assets/img/avatar-alt.png");
+      $(this).animate({ opacity: 1 }, 450);
+    });
+  }, function() {
+    $(this).animate({
+      opacity: 0
+    }, 450, function(){
+      $(this).attr("src","assets/img/avatar.png");
+      $(this).animate({ opacity: 1 }, 450);
+    });
+  });
+
   /*$(window).on('scroll', function(){
     var topofDiv = $("#skills").offset().top;
     var height = $("#skills").outerHeight();
