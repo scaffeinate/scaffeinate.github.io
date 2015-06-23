@@ -1,8 +1,10 @@
 function scrollDiv(element) {
-  $("html, body").delay(100).animate({ scrollTop: $(element).offset().top - 100 }, 500);
+  $("html, body").delay(250).animate({ scrollTop: $(element).offset().top }, 500, 'easeInCubic');
 };
 
 $(document).ready(function(){
+
+  new WOW().init();
 
   $("a[href*=#]").click(function(e){
     e.preventDefault();

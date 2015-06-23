@@ -1,7 +1,6 @@
 @font-face {font-family: 'OpenSans';font-style: normal;font-weight: 300;src: url(../assets/fonts/OpenSans/OpenSans-Light.ttf);}
 @font-face {font-family: 'OpenSans';font-style: normal;font-weight: 400;src: url(../assets/fonts/OpenSans/OpenSans-Regular.ttf);}
 
-@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;src: url(../assets/fonts/Montserrat/Montserrat-Light.otf) format('opentype');}
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;src: url(../assets/fonts/Montserrat/Montserrat-Regular.otf) format('opentype');}
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;src: url(../assets/fonts/Montserrat/Montserrat-Bold.otf) format('opentype');}
 
@@ -41,7 +40,7 @@ p, span {
 .navbar-brand {
   font-size: 1.8rem !important;
   margin-left: 125px !important;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 @media(max-width:767px){
@@ -55,14 +54,14 @@ p, span {
 }
 
 .avatar {
-  width: 100px;
-  border: 4px solid #fff;
+  width: 85px;
   border-radius: 10rem;
+  border: 4px solid #f4f4f4;
 }
 
 #intro {
-  margin-top: 100px;
-  padding-bottom: 245px;
+  margin-top: 75px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -78,19 +77,38 @@ p, span {
 
 #intro h3 {
   color: #fff;
-  font-size: 1.85rem;
+  font-size: 2rem;
   font-weight: 600;
 } 
 
 #intro h5 {
   color: #fff;
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+#social {
+  margin-top: 20px;
+}
+
+#social a {
+  display: inline-block;
+  margin: 17px;
+  color: #fff;
+}
+
+#social a > i {
+  font-size: 2.5rem;
+}
+
+#social a:hover {
+  color: #c7c7c7;
 }
 
 .section {
   background: white;
-  padding: 65px 40px 0px 40px;
+  padding: 75px;
+  padding-bottom: 25px;
 }
 
 .section h4 {
@@ -98,7 +116,6 @@ p, span {
   font-size: 1.65rem;
   font-weight: 400;
   color: #233;
-  padding: 25px;
 }
 
 .section h4:after {
@@ -123,7 +140,20 @@ p, span {
 }
 
 #work img {
+  padding: 0px 15px;
+}
+
+.thumbnail {
+  border: none;
+}
+
+.thumbnail p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0px;
   text-align: center;
-  width: 85%;
-  padding: 10px;
+}
+
+#tech {
+  margin-top: 75px;
 }
