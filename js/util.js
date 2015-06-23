@@ -6,8 +6,6 @@ $(document).ready(function(){
 
   new WOW().init();
 
-  $('.progress .progress-bar').progressbar(); 
-
   $("a[href*=#]").click(function(e){
     e.preventDefault();
     scrollDiv($(this).attr("href"));
@@ -31,12 +29,12 @@ $(document).ready(function(){
     });
   });
 
-  /*$(window).on('scroll', function(){
+  $(window).on('scroll', function(){
     var topofDiv = $("#skills").offset().top;
     var height = $("#skills").outerHeight();
     if($(window).scrollTop() > (topofDiv - height)){
       $('.progress .progress-bar').progressbar();
     }
-  });*/
+  });
 
 });
