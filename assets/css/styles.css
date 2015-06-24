@@ -164,11 +164,11 @@ p, span {
 }
 
 #skill-set {
-  padding: 50px 30px;
+  padding: 10px 30px;
 }
 
 .progress-bar-ruby {
-  background-color: #e0492f;
+  background-color: #bb3821;
 }
 
 .progress-bar-ember {
@@ -197,4 +197,42 @@ p, span {
 #skill-set .row {
   padding: 10px;
   margin-top: 15px;
+}
+
+#tech .row {
+  margin-top: 50px;
+}
+
+#projects .item {
+  padding: 80px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.rails-item {
+  background: #dc4126 !important;
+}
+
+.ember-item {
+  background: #f5664d;
+}
+
+.android-item {
+  background: #a4c639;
 }
