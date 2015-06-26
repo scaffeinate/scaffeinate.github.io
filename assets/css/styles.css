@@ -142,13 +142,22 @@ p {
   color: #ccc;
 }
 
-
-
-
 .section {
   background: white;
-  padding: 75px;
+  padding-top: 75px;
   padding-bottom: 25px;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+#tech-stack {
+  margin-top: 35px;
+}
+
+#tech-stack img {
+  margin-top: 35px;
 }
 
 .section img {
@@ -180,10 +189,6 @@ p {
 
 .avatar-alt {
   display: none;
-}
-
-#tech {
-  margin-top: 75px;
 }
 
 #skill-set {
@@ -222,22 +227,30 @@ p {
   margin-top: 15px;
 }
 
-#tech .row {
-  margin-top: 40px;
-}
 
 #projects-owl {
   margin: 40px 0px;
 }
 
-#projects-owl .item {
-  height: 200px;
-  padding: 20px;
-  margin: 10px 5px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+.item {
+  padding: 50px 0px;
+  margin-top: 30px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   text-align: center;
+}
+
+.item > img {
+  width: 75px;
+  height: 75px;
+}
+
+.ember-item > img {
+  width: 100px;
+  height: auto;
+  padding-top: 17px;
+  padding-bottom: 23px;
 }
 
 .project-details {
@@ -271,20 +284,20 @@ p {
   color: #505050;
 }
 
-.item h4 {
-  color: #fff;
-}
-
 .rails-item {
-  background: #ead57d !important;
+  background: #dc4126 !important;
 }
 
 .ember-item {
   background: #f7f9a2;
 }
 
+.ember-item h4 {
+  color: #f5664d;
+}
+
 .android-item {
-  background: #f7f7f7;
+  background: #a4c639;
 }
 
 .js-item {
@@ -297,4 +310,12 @@ p {
 
 .bootstrap-item {
   background: #5b4181;
+}
+
+.css-item {
+  background: #0171bb;
+}
+
+#projects .content .row {
+  
 }
