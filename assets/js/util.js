@@ -29,14 +29,6 @@ $(document).ready(function(){
     });
   });
 
-  $(window).on('scroll', function(){
-    var topofDiv = $("#skills").offset().top;
-    var height = $("#skills").outerHeight();
-    if($(window).scrollTop() > (topofDiv - height)){
-      $('.progress .progress-bar').progressbar();
-    }
-  });
-
   var owl = $("#projects-owl");
  
   owl.owlCarousel({
@@ -49,9 +41,17 @@ $(document).ready(function(){
 
   $(".next").click(function(){
     owl.trigger('owl.next');
-  })
+  });
+
   $(".prev").click(function(){
     owl.trigger('owl.prev');
-  })
+  });
+
+  $(".item").hover(function(){
+    console.log($(this).children()[1]);
+    $(this).children(".project-details").animate({ "bottom": "0px" }, "slow" );
+  }, function() {
+    $('.project-details').animate({ "bottom": "-200px" }, "slow" );
+  });
 
 });
