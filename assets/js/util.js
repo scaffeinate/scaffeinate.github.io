@@ -1,40 +1,25 @@
-function scrollDiv(element) {
-  $("html, body").delay(250).animate({ scrollTop: $(element).offset().top }, 500, 'easeInCubic');
-};
-
 $(document).ready(function(){
+
+  Parse.initialize("8wZ35cV3Yl6ppfcNDzDDyVFCPxP00JT6npenQ14z", "PRMy5Vzq3F0M8PURVoanaFH6YtOsykgdvull1Q2T");
+
+  $("#contact-form").submit(function(e){
+    e.preventDefault();
+    var data = $(this).serialize();
+
+    Parse.Cloud.run("sendMail", data, {
+      success: function(object) {
+        console.log("Sent");
+      },
+      error: function(object, error) {
+        console.log("Error" + error);
+      }
+    });
+  });
 
   new WOW().init();
 
-  $("a[href*=#]").click(function(e){
-    e.preventDefault();
-    scrollDiv($(this).attr("href"));
+  var owl = $("#showcase-owl");
+  owl.owlCarousel({
+    items : 3
   });
-
-  $("#phone").popover();
-
-  $("#avatar").hover(function(){
-    $(this).animate({
-      opacity: 0
-    }, 450, function(){
-      $(this).attr("src","assets/img/avatar-alt.png");
-      $(this).animate({ opacity: 1 }, 450);
-    });
-  }, function() {
-    $(this).animate({
-      opacity: 0
-    }, 450, function(){
-      $(this).attr("src","assets/img/avatar.png");
-      $(this).animate({ opacity: 1 }, 450);
-    });
-  });
-
-  $(window).on('scroll', function(){
-    var topofDiv = $("#skills").offset().top;
-    var height = $("#skills").outerHeight();
-    if($(window).scrollTop() > (topofDiv - height)){
-      $('.progress .progress-bar').progressbar();
-    }
-  });
-
 });

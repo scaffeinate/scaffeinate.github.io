@@ -10,18 +10,19 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-progressbar.min.css">
   <link rel="stylesheet" href="assets/css/font-awesome.css">
   <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-default fixed">
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -29,13 +30,14 @@
           </button>
           <a class="navbar-brand" href>PORTFOLIO</a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="scroll-link" href="#about-me">ABOUT ME</a></li>
-            <li><a class="scroll-link" href="#work">WORK</a></li>
-            <li><a class="scroll-link" href="#skills">SKILLS</a></li>
-            <li><a class="scroll-link" href="#projects">PROJECTS</a></li>
-            <li><a class="scroll-link" href="#blog">BLOG</a></li>
+            <li><a href="#about-me" class="page-scroll">ABOUT ME</a></li>
+            <li><a href="#work" class="page-scroll">WORK</a></li>
+            <li><a href="#projects" class="page-scroll">PROJECTS</a></li>
+            <li><a href="#showcase" class="page-scroll">SHOWCASE</a></li>
+            <li><a href="#blog" class="page-scroll">BLOG</a></li>
+            <li><a href="#contact" class="page-scroll">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -43,8 +45,8 @@
     <div id="intro" class="row animated bounce">
       <div class="col-lg-6 col-lg-offset-3">
         <img id="avatar" src="assets/img/avatar.png" alt="Avatar" class="avatar">
-        <h3>SUDHARSANAN MURALIDHARAN</h3>
-        <h5>GRAD STUDENT | FULL STACK WEB DEV | ANDROID DEV</h5>
+        <h3 class="wh"><b>SUDHARSANAN MURALIDHARAN</b></h3>
+        <h5 class="wh">FULL STACK WEB DEV</h5>
         <div id="social">
           <a id="twitter-social" href="https://twitter.com/sudharshan_iyer" target="_blank">
             <i class="fa fa-twitter"></i>
@@ -61,172 +63,255 @@
         </div>  
       </div>
     </div>
-    <div id="about-me" class="row section">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h4>ABOUT ME</h4>
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1">
-            <div class="wow fadeIn">
-              <p>
-                Hi. I am Sudharsanan from India. Currently a Grad Student in Computer Science at University of Texas, Dallas. I am a Hacker, Blogger, Freelancer &amp; a huge Gadget Freak.</p>
-                <p>A Full Stack web developer who loves to build awesome Web apps. A Rubyist riding <a href="http://rubyonrails.org/">Rails</a>. Also loves to build some awesome Android apps. Currently exploring the world of <a href="http://emberjs.com">Ember</a>.
-                </p>
-                <p>
-                  When I am not building anything I spend time playing games on my Xbox 360 or riding the Bike.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="work" class="row section">
+    <div id="about-me">
+      <div class="row section">
         <div class="col-lg-8 col-lg-offset-2">
-          <h4>WHAT I DO</h4>
-          <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-              <p>I strive to create simple, clean &amp; responsive Web as well as Mobile apps. and I also embrace Minimalistic design. Here are some of the technologies I use daily to create awesome Apps!</p>
-              <div id="tech" class="row">
-                <div class="wow bounceIn">
-                  <div class="col-lg-3">
-                    <div class="thumbnail">
-                      <img src="assets/img/ruby.png" alt="Ruby">
-                      <div class="caption">
-                        <p>Ruby</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="thumbnail">
-                      <img src="assets/img/rails.png" alt="Rails">
-                      <div class="caption">
-                        <p>Rails</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="thumbnail">
-                      <img src="assets/img/ember.png" alt="Ember">
-                      <div class="caption">
-                        <p>Ember</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="thumbnail">
-                      <img src="assets/img/android.png" alt="Android">
-                      <div class="caption">
-                        <p>Android</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <h4 class="underlined">ABOUT ME</h4>
+          <div class="col-lg-4">
+            <h5><b>GRAD STUDENT</b></h5>
+            <p>Grad Student at The University of Texas, Dallas. Hailing from Chennai, India. Lives in Dallas, TX.</p>
+          </div>
+          <div class="col-lg-4">
+            <h5><b>FULL STACK WEB DEV</b></h5>
+            <p>A Full Stack web developer who loves to build awesome Web &amp; Mobile apps. A Rubyist riding <a href="http://rubyonrails.org/">Rails</a>, Android &amp; Ember.js developer.</p>
+          </div>
+          <div class="col-lg-4">
+            <h5><b>GAMER</b></h5>
+            <p>When I am not building anything I spend time playing games on my Xbox 360.</p>
           </div>
         </div>
       </div>
-      <div id="skills" class="row section">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h4>SKILLS</h4>
-          <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-              <div id="skill-set" class="wow fadeIn">
-                <div class="row">
-                  <div class="col-lg-2">
-                    <img src="assets/img/ruby-icon.png" alt="Ruby" class="skill-icon">
-                  </div>
-                  <div class="col-lg-10">
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-ruby" data-transitiongoal="78">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-2">
-                    <img src="assets/img/android-icon.png" alt="Android" class="skill-icon">
-                  </div>
-                  <div class="col-lg-10">
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-android" data-transitiongoal="90">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-2">
-                    <img src="assets/img/rails-icon.png" alt="Rails" class="skill-icon">
-                  </div>
-                  <div class="col-lg-10">
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-rails" data-transitiongoal="85">
-                      </div>
-                    </div>
-                  </div>
-                </div>                
-                <div class="row">
-                  <div class="col-lg-2">
-                    <img src="assets/img/ember-icon.png" alt="Ember" class="skill-icon">
-                  </div>
-                  <div class="col-lg-10">
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-ember" data-transitiongoal="72">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    </div>
+    <div id="work">
+      <div class="row section">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h4 class="underlined">WHAT I DO</h4>
+          <p>I strive to create simple, clean &amp; responsive Web as well as Mobile apps. and I also embrace Minimalistic design. Here are some of the technologies I use daily to create awesome Apps!</p>
+          <br><br>
+          <div class="row wow bounceIn">
+            <div class="col-lg-3">
+              <img id="ruby-img" src="assets/img/ruby.png" alt="Ruby">
+            </div>
+            <div class="col-lg-3">
+              <img id="rails-img" src="assets/img/rails.png" alt="Rails">
+            </div>
+            <div class="col-lg-3">
+              <img id="ember-img" src="assets/img/ember.png" alt="Ember">
+            </div>
+            <div class="col-lg-3">
+              <img id="android-img" src="assets/img/android.png" alt="Android">
             </div>
           </div>
-        </div>
-      </div>
-    <!-- <div id="projects" class="row section">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h4>PROJECTS</h4>
-        <div class="wow fadeIn">
-          <div class="row">
-            <div class="col-lg-3 col-lg-offset-1">
-              <img src="assets/img/octocat.jpg" alt="Octocat" style="width: 100%;">
+          <br><br>
+          <div class="row wow bounceIn">
+            <div class="col-lg-3">
+              <img id="html5-img" src="assets/img/html5.png" alt="HTML5">
             </div>
-            <div class="col-lg-6 col-lg-offset-1">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="col-lg-3">
+              <img id="css3-img" src="assets/img/css3.png" alt="CSS3">
+            </div>
+            <div class="col-lg-3">
+              <img id="bootstrap-img" src="assets/img/bootstrap.png" alt="Bootstrap">
+            </div>
+            <div class="col-lg-3">
+              <img id="grunt-img" src="assets/img/grunt.png" alt="Grunt">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="blog" class="row section">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h4>BLOG</h4>
-        <div class="wow fadeIn">
-          <div class="row">
-            <div class="col-lg-6 col-lg-offset-1">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div id="projects">
+      <div class="row section">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h4 class="underlined">PROJECTS</h4>
+          <div class="wow fadeIn">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="rails-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/rails-128.png" alt="Rails">
+                    <h4 class="wh">TWITTER CLONE</h4>
+                  </div>
+                  <div class="back">
+                    <p>An open source clone of Twitter developed using Ruby on Rails.</p>
+                    <a href="https://github.com/sudharti/twitter-clone" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>  
+              </div>
+              <div class="col-lg-4">
+                <div class="android-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/android-128.png" alt="Android">
+                    <h4 class="wh">REDDIT CLIENT</h4>
+                  </div>
+                  <div class="back">
+                    <p>Reddit client for Android.</p>
+                    <a href="https://github.com/sudharti/reddit-client-android" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="css-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/css3-128.png" alt="CSS3">
+                    <h4 class="wh">PORTFOLIO</h4>
+                  </div>
+                  <div class="back">
+                    <p>A showcase of my Skills &amp; Projects.</p>
+                    <a href="https://github.com/sudharti/portfolio" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4">
-              <img src="assets/img/jekyll.png" alt="Jekyll" style="width: 100%;">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="ember-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/ember-logo.png" alt="Ember">
+                    <h4>TODO0</h4>
+                  </div>
+                  <div class="back">
+                    <p>A real-time Todo app built using Ember.js &amp; Firebase.</p>
+                    <a href="https://github.com/sudharti/todo0" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>  
+              </div>
+              <div class="col-lg-4">
+                <div class="bootstrap-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/bootstrap-512.png" alt="Bootstrap">
+                    <h4 class="wh">PAPER THEME</h4>
+                  </div>
+                  <div class="back">
+                    <p>An elegant, flat &amp; responsive Bootstrap Theme.</p>
+                    <a href="https://github.com/sudharti/paper" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>  
+              </div>
+              <div class="col-lg-4">
+                <div class="rails-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/rails-128.png" alt="Rails">
+                    <h4 class="wh">2CENTS</h4>
+                  </div>
+                  <div class="back">
+                    <p>A Rails app that helps users find the best things around them.</p>
+                    <a href="https://github.com/sudharti/2cents" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="js-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/js-128.png" alt="Javascript">
+                    <h4>SLIDER PANEL JS</h4>
+                  </div>
+                  <div class="back">
+                    <p>An easy to use Javscript plugin to display off-canvas contents.</p>
+                    <a href="https://github.com/sudharti/slider-panel" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="android-item grid-item">
+                  <div class="front">
+                    <img src="assets/img/android-128.png" alt="Android">
+                    <h4 class="wh">BARREL RACE</h4>
+                  </div>
+                  <div class="back">
+                    <p>A motion-controlled Android game.</p>
+                    <a href="https://github.com/sudharti/BarrelRace" target="_blank" class="btn btn-default">VIEW ON GITHUB</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="contact" class="row section">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h4>CONTACT</h4>
-        <div class="wow fadeIn">
-          <div class="row">
-    
+    <div id="showcase">
+      <div class="row section">
+        <div class="col-lg-12">
+          <h4 class="underlined">SHOWCASE</h4>
+          <div class="wow fadeIn">
+            <div id="showcase-owl" class="own-carousel owl-theme">
+              <div class="item">
+                <img src="assets/img/landing-showcase.jpg" alt="Landing Page">
+              </div>
+              <div class="item">
+                <img src="assets/img/todo0-showcase.jpg" alt="Todo0">
+              </div>
+              <div class="item">
+                <img src="assets/img/twitter-clone-showcase.jpg" alt="Twitter clone">
+              </div>
+              <div class="item">
+                <img src="assets/img/blog-showcase.jpg" alt="Blog">
+              </div>
+              <div class="item">
+                <img src="assets/img/login-showcase.jpg" alt="Login Page">
+              </div>
+              <div class="item">
+                <img src="assets/img/portfolio-showcase.jpg" alt="Portfolio">
+              </div>
+              <div class="item">
+                <img src="assets/img/paper-theme-showcase.jpg" alt="Paper Theme">
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
+    <div id="blog">
+      <div class="row section">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h4 class="underlined">BLOG</h4>
+          <div class="row">
+            <div class="col-lg-7 col-lg-offset-2">
+              <img src="assets/img/jekyll.png" alt="Jekyll">
+            </div>
+          </div>
+          <div class="row wow fadeIn">
+            <br><br>
+            <p>
+              I use <a href="http://jekyllrb.com/" target="_blank">Jekyll.rb</a> to host my blog. Jekyll has pretty cool features and the best one is the integration with Github. Checkout this awesome article [<a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html" target="_blank">Blog Like a Hacker</a>]. And here is the theme [<a href="https://mmistakes.github.io/minimal-mistakes" target="_blank">Minimal Mistakes</a>] that I use for my blog.
+            </p>
+            <p>
+              As an occassional blogger I blog mostly about tech &amp; app development. I write posts about Rails, Ember &amp; Android development. You can check out my blog => <a href="http://sudharti.github.io/" target="_blank">Hacker's Journal</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="row section">
+        <div class="col-lg-4 col-lg-offset-4">
+          <h4 class="underlined">CONTACT</h4>
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea id="message" class="form-control"  name="message" placeholder="Message" cols="30" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
   <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/js/bootstrap-progressbar.min.js"></script>
   <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+  <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="assets/js/scrolling-nav.js"></script>
   <script type="text/javascript" src="assets/js/wow.min.js"></script>
+  <script type="text/javascript" src="assets/js/parse-1.4.2.min.js"></script>
   <script type="text/javascript" src="assets/js/util.js"></script>
   <!-- <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
