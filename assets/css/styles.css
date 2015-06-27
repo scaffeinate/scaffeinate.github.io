@@ -35,7 +35,7 @@ h4.underlined:after {
   height: 1px;
   width: 25px;
   display: block;
-  margin: 10px auto 0;
+  margin: 10px auto 50px;
 }
 
 p {
@@ -46,7 +46,12 @@ p {
   text-rendering: optimizeLegibility;
 }
 
-.wh-text {
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wh {
   color: #fff;
 }
 
@@ -107,6 +112,65 @@ p {
   margin-right: 62.5px;
 }
 
+.section {
+  background: white;
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #f4f4f4;
+  border-radius: 10rem;
+}
+
+.item {
+  height: 210px;
+  margin-top: 30px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.item, .front {
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -ms-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.item > .front > img {
+  width: 75px;
+  height: 75px;
+}
+
+.front {
+  margin-top: 4rem;   
+}
+
+.back {
+  height: 100%;
+  padding: 10px;
+  background: #222;
+  margin-top: 100px;
+}
+
+.item:hover .front {
+  margin-top: -203px;
+}
+
+.ember-item > .front > img {
+  width: 100px;
+  height: auto;
+  padding-top: 17px;
+  padding-bottom: 23px;
+}
+
 #intro {
   margin-top: 100px;
   margin-bottom: 200px;
@@ -142,120 +206,31 @@ p {
   color: #ccc;
 }
 
-.section {
-  background: white;
-  padding-top: 75px;
-  padding-bottom: 25px;
+#about-me .section {
+  background: #f8f8f8 !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.content {
-  margin-top: 50px;
+
+#about-me .col-lg-4 {
+  text-align: center;
 }
 
-#tech-stack {
-  margin-top: 35px;
-}
-
-#tech-stack img {
-  margin-top: 35px;
-}
-
-.section img {
-  width: 100%;
+#about-me h5 {
+  color: #555 ;
+  font-size: 1.4rem;
 }
 
 #work img {
-  padding: 0px 15px;
-}
-
-.thumbnail {
-  border: none;
-}
-
-.thumbnail p {
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-top: 0px;
-  text-align: center;
-}
-
-.avatar {
-  width: 100px;
-  height: 100px;
-  border: 4px solid #f4f4f4;
+  cursor: pointer;
+  padding: 5px;
   border-radius: 10rem;
+  transition: .2s ease-in-out;
 }
-
-
-.avatar-alt {
-  display: none;
-}
-
-#skill-set {
-  padding: 10px 5px;
-}
-
-.progress-bar-ruby {
-  background-color: #bb3821;
-}
-
-.progress-bar-ember {
-  background-color: #f5664d;
-}
-
-.progress-bar-rails {
-  background-color: #dc4126;
-}
-
-.progress-bar-android {
-  background-color: #a4c639;
-}
-
-.skill-icon {
-  width: 45px !important;
-}
-
-.progress {
-  box-shadow: none;
-  height: 2.5px;
-  margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-#skill-set .row {
-  padding: 10px;
-  margin-top: 15px;
-}
-
 
 #projects-owl {
   margin: 40px 0px;
-}
-
-.item {
-  padding: 50px 0px;
-  margin-top: 30px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  text-align: center;
-}
-
-.item > img {
-  width: 75px;
-  height: 75px;
-}
-
-.ember-item > img {
-  width: 100px;
-  height: auto;
-  padding-top: 17px;
-  padding-bottom: 23px;
-}
-
-.project-details {
-  position: absolute;
-  bottom: -200px;
 }
 
 .customNavigation{
@@ -316,6 +291,34 @@ p {
   background: #0171bb;
 }
 
-#projects .content .row {
-  
+#html5-img:hover {
+  box-shadow: 0 0 0 3px #f16529;
+}
+
+#css3-img:hover {
+  box-shadow: 0 0 0 3px #0171bb;
+}
+
+#bootstrap-img:hover {
+  box-shadow: 0 0 0 3px #5b4181;
+}
+
+#rails-img:hover {
+  box-shadow: 0 0 0 3px #dc4126;
+}
+
+#ruby-img:hover {
+ box-shadow: 0 0 0 3px #ead57d; 
+}
+
+#ember-img:hover {
+  box-shadow: 0 0 0 3px #f7f9a2;
+}
+
+#android-img:hover {
+  box-shadow: 0 0 0 3px #a4c639;
+}
+
+#grunt-img:hover {
+  box-shadow: 0 0 0 3px #e48632;
 }

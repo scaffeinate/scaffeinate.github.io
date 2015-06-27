@@ -13,31 +13,15 @@ $(document).ready(function(){
 
   $("#phone").popover();
 
-  $("#avatar").hover(function(){
-    $(this).animate({
-      opacity: 0
-    }, 450, function(){
-      $(this).attr("src","assets/img/avatar-alt.png");
-      $(this).animate({ opacity: 1 }, 450);
-    });
-  }, function() {
-    $(this).animate({
-      opacity: 0
-    }, 450, function(){
-      $(this).attr("src","assets/img/avatar.png");
-      $(this).animate({ opacity: 1 }, 450);
-    });
-  });
-
   var owl = $("#projects-owl");
- 
+
   owl.owlCarousel({
       items : 3, //10 items above 1000px browser width
       itemsDesktop : [1000,2], //5 items between 1000px and 901px
       itemsDesktopSmall : [900,2], // betweem 900px and 601px
       itemsTablet: [600,2], //2 items between 600 and 0
       itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
-  });
+    });
 
   $(".next").click(function(){
     owl.trigger('owl.next');
@@ -46,12 +30,4 @@ $(document).ready(function(){
   $(".prev").click(function(){
     owl.trigger('owl.prev');
   });
-
-  $(".item").hover(function(){
-    console.log($(this).children()[1]);
-    $(this).children(".project-details").animate({ "bottom": "0px" }, "slow" );
-  }, function() {
-    $('.project-details').animate({ "bottom": "-200px" }, "slow" );
-  });
-
 });
