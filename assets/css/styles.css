@@ -1,4 +1,4 @@
-@font-face {font-family: 'MyriadPro';font-style: normal;font-weight: 400;src: url(../fonts/MyriadPro/MyriadPro-Regular.otf);}
+@font-face {font-family: 'MyriadPro';font-style: normal;font-weight: 400;src: url(../fonts/MyriadPro/MyriadPro-Regular.otf) format('opentype');}
 
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;src: url(../fonts/Montserrat/Montserrat-Regular.otf) format('opentype');}
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;src: url(../fonts/Montserrat/Montserrat-Bold.otf) format('opentype');}
@@ -177,6 +177,11 @@ img {
   font-weight: 600;
 }
 
+.back .btn-default:hover {
+  background: #fff;
+  color: #333;
+}
+
 .grid-item:hover .front {
   margin-top: -213px;
 }
@@ -255,6 +260,10 @@ img {
   padding: 5px;
   border-radius: 10rem;
   transition: .2s ease-in-out;
+}
+
+#success-msg {
+  display: none;
 }
 
 #projects-owl {
@@ -351,6 +360,11 @@ img {
   box-shadow: 0 0 0 3px #e48632;
 }
 
+.error input, 
+.error textarea {
+  border-bottom-color: #dc4126 !important;
+}
+
 #contact-form input, 
 #contact-form textarea,
 #contact-form button {
@@ -373,5 +387,36 @@ img {
 #contact-form button:active,
 #contact-form button:focus {
   background: #7857b0;
+  color: #fff;
+}
+
+#contact-form label {
+  display: none !important;
+}
+
+.back-to-top {
+  background: none;
+  margin: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  text-decoration: none;
+  display: none;
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #6357a0;
+  color: #6357a0;
+}
+
+.back-to-top:hover, 
+.back-to-top:focus, 
+.back-to-top:active {
+  background-color: #6357a0;
   color: #fff;
 }

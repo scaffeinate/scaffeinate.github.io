@@ -18,8 +18,11 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
 <body>
+  <a href="#topnav" class="back-to-top page-scroll">
+    <i class="fa fa-arrow-up"></i>
+  </a>
   <div class="container-fluid">
-    <nav class="navbar navbar-default">
+    <nav id="topnav" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -288,6 +291,7 @@
       <div class="row section">
         <div class="col-lg-4 col-lg-offset-4">
           <h4 class="underlined">CONTACT</h4>
+          <h5 id="success-msg" class="text-center">Your Message has been sent!</h5>
           <form id="contact-form">
             <div class="form-group">
               <input type="text" class="form-control" id="name" name="name" placeholder="Name">
@@ -298,7 +302,7 @@
             <div class="form-group">
               <textarea id="message" class="form-control"  name="message" placeholder="Message" cols="30" rows="5"></textarea>
             </div>
-            <button type="submit" class="btn btn-default btn-block">Send Message</button>
+            <button id="send-message" type="submit" class="btn btn-default btn-block" data-loading-text="Sending...">Send Message</button>
           </form>
         </div>
       </div>
@@ -311,8 +315,9 @@
   <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="assets/js/scrolling-nav.js"></script>
   <script type="text/javascript" src="assets/js/wow.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
   <script type="text/javascript" src="assets/js/parse-1.4.2.min.js"></script>
-  <script type="text/javascript" src="assets/js/util.js"></script>
+  <script type="text/javascript" src="assets/js/util.js"></script> 
   <!-- <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
