@@ -4,7 +4,11 @@ $(document).ready(function(){
 
   $("#contact-form").submit(function(e){
     e.preventDefault();
-    var data = $(this).serialize();
+    var data = {
+      name: $("#name").val(),
+      email: $("#email").val(),
+      message: $("#message").val()
+    }
 
     Parse.Cloud.run("sendMail", data, {
       success: function(object) {
