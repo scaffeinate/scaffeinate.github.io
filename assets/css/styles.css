@@ -125,8 +125,8 @@ img {
   border-radius: 10rem;
 }
 
-.item {
-  height: 210px;
+.grid-item {
+  height: 260px;
   margin-top: 30px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -135,7 +135,7 @@ img {
   overflow: hidden;
 }
 
-.item, .front {
+.grid-item, .front {
   cursor: pointer;
   -webkit-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
@@ -144,31 +144,59 @@ img {
   transition: .2s ease-in-out;
 }
 
-.item > .front > img {
-  width: 75px;
-  height: 75px;
+.grid-item > .front > img {
+  width: 85px;
+  height: 85px;
 }
 
 .front {
-  margin-top: 4rem;   
+  margin-top: 5rem;   
 }
 
 .back {
   height: 100%;
-  padding: 10px;
-  background: #222;
+  padding: 50px;
+  background: #233;
   margin-top: 100px;
 }
 
-.item:hover .front {
-  margin-top: -203px;
+.back p {
+  margin-top: 20px;
+  font-size: 1.65rem;
+  color: white;
+}
+
+.back .btn-default {
+  margin-top: 20px;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: transparent;
+  border-width: 2px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.grid-item:hover .front {
+  margin-top: -213px;
 }
 
 .ember-item > .front > img {
   width: 100px;
   height: auto;
-  padding-top: 17px;
-  padding-bottom: 23px;
+  padding-top: 12px;
+  padding-bottom: 33px;
+}
+
+.item {
+  margin: 2px;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e0e0e0;
 }
 
 #intro {
