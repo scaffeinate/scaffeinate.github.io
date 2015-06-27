@@ -234,7 +234,7 @@ img {
   color: #ccc;
 }
 
-#about-me .section {
+#about-me .section, #contact .section   {
   background: #f8f8f8 !important;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -349,4 +349,29 @@ img {
 
 #grunt-img:hover {
   box-shadow: 0 0 0 3px #e48632;
+}
+
+#contact-form input, 
+#contact-form textarea,
+#contact-form button {
+  border: none;
+  border-bottom: 1px solid #6357a0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  font-size: 1.6rem;
+  margin-top: 40px;
+}
+
+#contact-form button {  
+  border: 1px solid #6357a0;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+}
+
+#contact-form button:hover,
+#contact-form button:active,
+#contact-form button:focus {
+  background: #7857b0;
+  color: #fff;
 }
