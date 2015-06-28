@@ -1,4 +1,4 @@
-@font-face {font-family: 'MyriadPro';font-style: normal;font-weight: 400;src: url(../fonts/MyriadPro/MyriadPro-Regular.otf);}
+@font-face {font-family: 'MyriadPro';font-style: normal;font-weight: 400;src: url(../fonts/MyriadPro/MyriadPro-Regular.otf) format('opentype');}
 
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;src: url(../fonts/Montserrat/Montserrat-Regular.otf) format('opentype');}
 @font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;src: url(../fonts/Montserrat/Montserrat-Bold.otf) format('opentype');}
@@ -177,6 +177,11 @@ img {
   font-weight: 600;
 }
 
+.back .btn-default:hover {
+  background: #fff;
+  color: #333;
+}
+
 .grid-item:hover .front {
   margin-top: -213px;
 }
@@ -257,34 +262,12 @@ img {
   transition: .2s ease-in-out;
 }
 
-#projects-owl {
-  margin: 40px 0px;
+#tech-stack {
+  padding: 25px;
 }
 
-.customNavigation{
-  text-align: center;
-}
-
-.customNavigation a{
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
-}
-
-.customNavigation a > i {
-  margin: 5px 25px;
-  color: #c0c0c0;
-  font-size: 2.25rem;
-}
-
-.customNavigation a > i:hover,
-.customNavigation a > i:focus,
-.customNavigation a > i:active {
-  color: #505050;
+#success-msg {
+  display: none;
 }
 
 .rails-item {
@@ -351,6 +334,11 @@ img {
   box-shadow: 0 0 0 3px #e48632;
 }
 
+.error input, 
+.error textarea {
+  border-bottom-color: #dc4126 !important;
+}
+
 #contact-form input, 
 #contact-form textarea,
 #contact-form button {
@@ -361,6 +349,13 @@ img {
   background: transparent;
   font-size: 1.6rem;
   margin-top: 40px;
+}
+
+#contact-form input:active,
+#contact-form input:focus,
+#contact-form textarea:active,
+#contact-form textarea:focus {
+  border-color: #0b4181;
 }
 
 #contact-form button {  
@@ -374,4 +369,47 @@ img {
 #contact-form button:focus {
   background: #7857b0;
   color: #fff;
+}
+
+#contact-form label {
+  display: none !important;
+}
+
+.back-to-top {
+  margin: 10px 25px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  text-decoration: none;
+  display: none;
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #6357a0;
+  color: #6357a0;
+}
+
+.back-to-top:hover, 
+.back-to-top:focus, 
+.back-to-top:active {
+  background-color: #6357a0;
+  color: #fff;
+}
+
+#footer {
+  border-top: 1px solid #e0e0e0;
+}
+
+#footer .section {
+  padding: 20px 100px;
+}
+
+#footer h5 {
+  display: inline;
+  margin: 2px;
 }
