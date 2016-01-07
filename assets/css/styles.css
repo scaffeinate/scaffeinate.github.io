@@ -150,7 +150,7 @@ img {
 }
 
 .front {
-  margin-top: 5rem;   
+  margin-top: 5rem;
 }
 
 .back {
@@ -287,7 +287,7 @@ img {
 }
 
 .js-item {
-  background: #f8dc3d;  
+  background: #f8dc3d;
 }
 
 .js-item h4 {
@@ -300,6 +300,10 @@ img {
 
 .css-item {
   background: #0171bb;
+}
+
+.java-item {
+  background: #E76F00 !important;
 }
 
 #html5-img:hover {
@@ -319,7 +323,7 @@ img {
 }
 
 #ruby-img:hover {
- box-shadow: 0 0 0 3px #ead57d; 
+ box-shadow: 0 0 0 3px #ead57d;
 }
 
 #ember-img:hover {
@@ -330,16 +334,28 @@ img {
   box-shadow: 0 0 0 3px #a4c639;
 }
 
-#grunt-img:hover {
+#java-img:hover {
   box-shadow: 0 0 0 3px #e48632;
 }
 
-.error input, 
+#js-img:hover {
+  box-shadow: 0 0 0 3px #f8dc3d;
+}
+
+#node-img:hover {
+  box-shadow: 0 0 0 3px #8FC84E;
+}
+
+#jquery-img:hover {
+  box-shadow: 0 0 0 3px #304F98;
+}
+
+.error input,
 .error textarea {
   border-bottom-color: #dc4126 !important;
 }
 
-#contact-form input, 
+#contact-form input,
 #contact-form textarea,
 #contact-form button {
   border: none;
@@ -358,7 +374,7 @@ img {
   border-color: #0b4181;
 }
 
-#contact-form button {  
+#contact-form button {
   border: 1px solid #6357a0;
   padding: 10px 20px;
   font-size: 1.4rem;
@@ -394,8 +410,8 @@ img {
   color: #6357a0;
 }
 
-.back-to-top:hover, 
-.back-to-top:focus, 
+.back-to-top:hover,
+.back-to-top:focus,
 .back-to-top:active {
   background-color: #6357a0;
   color: #fff;
