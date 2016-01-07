@@ -239,7 +239,7 @@ img {
   color: #ccc;
 }
 
-#about-me .section, #contact .section   {
+#about-me .section, #contact .section, #what-i-do .section {
   background: #f8f8f8 !important;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -255,7 +255,7 @@ img {
   font-size: 1.4rem;
 }
 
-#work img {
+#what-i-do img {
   cursor: pointer;
   padding: 5px;
   border-radius: 10rem;
@@ -428,4 +428,8 @@ img {
 #footer h5 {
   display: inline;
   margin: 2px;
+}
+
+#work .section {
+  padding-bottom: 100px;
 }
