@@ -330,9 +330,9 @@
     <div id="footer">
       <div class="row section">
         <div class="col-lg-4">
-          <h5>Copyright © 2016</h5>
+          <h5>Copyright © <span id="year"></span></h5>
           <h5>•</h5>
-          <h5>Made with &#10084; by</h5>
+          <h5>Made with &#9829; by</h5>
           <a href="https://github.com/sudharti" target="_blank">@sudharti</a>
         </div>
       </div>
@@ -364,6 +364,11 @@
 
     ga('create', 'UA-59264101-1', 'auto');
     ga('send', 'pageview');
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('#year').val(new Date().getFullYear());
+    });
   </script>
 </body>
 </html>
