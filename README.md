@@ -1,3 +1,3 @@
-# Portfolio
+### Sudharsanan Muralidharan - Online Portfolio
 
-Visit http://sudharsanan.me
+Full stack developer & Grad student at University of Texas, Dallas. Visit http://sudharti.github.io
