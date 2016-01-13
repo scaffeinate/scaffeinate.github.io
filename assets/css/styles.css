@@ -71,7 +71,7 @@ img {
 }
 
 .navbar a:hover {
-  background: #6357a0 !important;
+  background: #6173F4 !important;
 }
 
 .navbar-brand {
@@ -406,14 +406,14 @@ img {
   padding-top: 5px;
   text-align: center;
   background-color: #fff;
-  border: 2px solid #6357a0;
-  color: #6357a0;
+  border: 2px solid #6173F4;
+  color: #6173F4;
 }
 
 .back-to-top:hover,
 .back-to-top:focus,
 .back-to-top:active {
-  background-color: #6357a0;
+  background-color: #6173F4;
   color: #fff;
 }
 
