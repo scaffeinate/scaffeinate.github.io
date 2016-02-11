@@ -64,7 +64,7 @@
           <b>SUDHARSANAN MURALIDHARAN</b>
         </h3>
         <h5 class="wh">FULL STACK DEVELOPER | GRAD STUDENT AT UTDALLAS</h5>
-        <div id="social">
+        <div class="hidden-xs" id="social">
           <a href="https://www.linkedin.com/in/sudharsananm" target="_blank">
             <i class="fa fa-linkedin"></i>
           </a>
@@ -77,8 +77,25 @@
           <a href="https://twitter.com/sudharshan_iyer" target="_blank">
             <i class="fa fa-twitter"></i>
           </a>
+          <a data-placement="top" data-toggle="tooltip" href="javascript:void(0);" title="Skype Username - facebook:sudhar.ti">
+            <i class="fa fa-skype"></i>
+          </a>
           <a href="https://www.facebook.com/sudharshan.muralidharan" target="_blank">
             <i class="fa fa-facebook"></i>
+          </a>
+          <a href="mailto:sudhar.ti@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+          </a>
+        </div>
+        <div class="hidden-sm hidden-md hidden-lg" id="social">
+          <a href="https://www.linkedin.com/in/sudharsananm" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/sudharti" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="https://twitter.com/sudharshan_iyer" target="_blank">
+            <i class="fa fa-twitter"></i>
           </a>
           <a href="mailto:sudhar.ti@gmail.com">
             <i class="fa fa-envelope-o"></i>
@@ -370,6 +387,9 @@
   <script>
     $(document).ready(function () {
       $('#year').text(new Date().getFullYear());
+    });
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
 </body>
